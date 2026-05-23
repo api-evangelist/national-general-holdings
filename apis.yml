@@ -1,0 +1,33 @@
+aid: national-general-holdings
+url: https://raw.githubusercontent.com/api-evangelist/national-general-holdings/refs/heads/main/apis.yml
+name: National General Holdings
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Insurance
+  - Property & Casualty
+  - Auto Insurance
+  - Accident & Health Insurance
+  - Acquired
+  - Defunct Standalone
+description: 'National General Holdings was a specialty personal lines insurer offering auto, RV, motorcycle, homeowners, and accident & health coverage. Acquired by Allstate in January 2021 for approximately $4 billion and folded into Allstate as the "National General, an Allstate company" brand. No standalone developer program, public APIs, or technical portal exists; the corporate domain redirects to nationalgeneral.com which is now an Allstate-operated consumer site.'
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.nationalgeneral.com/
+  - type: ParentCompany
+    url: https://www.allstate.com/
+  - type: ParentCompanyIndex
+    url: https://raw.githubusercontent.com/api-evangelist/allstate/refs/heads/main/apis.yml
+  - type: AcquisitionAnnouncement
+    url: https://www.allstatenewsroom.com/news/allstate-completes-acquisition-of-national-general/
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/National_General_Holdings
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/national-general-insurance/
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
