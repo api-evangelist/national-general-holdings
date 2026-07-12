@@ -16,6 +16,8 @@ modified: '2026-05-23'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/national-general-holdings-domain-security.yml
   - type: Website
     url: https://www.nationalgeneral.com/
   - type: ParentCompany
