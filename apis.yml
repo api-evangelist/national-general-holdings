@@ -24,7 +24,7 @@ tags:
 description: 'National General Holdings was a specialty personal lines insurer offering auto, RV, motorcycle, homeowners, and accident & health coverage. Acquired by Allstate in January 2021 for approximately $4 billion and folded into Allstate as the "National General, an Allstate company" brand. No standalone developer program, public APIs, or technical portal exists; the corporate domain redirects to nationalgeneral.com which is now an Allstate-operated consumer site.'
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: DomainSecurity
