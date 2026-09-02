@@ -62,3 +62,6 @@ common:
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
+x-parent: allstate
+x-relationship: acquisition
+x-acquired: 2021
