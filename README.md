@@ -1,4 +1,4 @@
-# national-general-holdings
+# National General Holdings
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,28 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Profile for **National General Holdings** in the API Evangelist network. Fortune F1000 (rank 535) at the time of acquisition.
+National General Holdings was a specialty personal lines insurer offering auto, RV, motorcycle, homeowners, and accident & health coverage. Acquired by Allstate in January 2021 for approximately $4 billion and folded into Allstate as the "National General, an Allstate company" brand. No standalone developer program, public APIs, or technical portal exists; the corporate domain redirects to nationalgeneral.com which is now an Allstate-operated consumer site.
 
-## Status: Defunct Standalone — Acquired by Allstate
+**Areas:** Insurance · Property and Casualty · Auto Insurance · Accident & Health Insurance · Acquired · Defunct Standalone
 
-National General Holdings ceased to exist as an independent public company in **January 2021**, when **Allstate completed its acquisition for approximately $4 billion**. The brand survives as "**National General, an Allstate company**" and operates as a subsidiary serving the non-standard auto, RV, motorcycle, homeowners, and accident & health insurance segments alongside Allstate's core brands (Allstate, Esurance, Encompass).
+## National General Holdings on APIs.io
 
-The corporate site `nationalgeneral.com` is now an Allstate-operated consumer portal — there is no investor relations site, no standalone developer program, no public API surface, and no GitHub organization tied to the National General entity.
+Everything profiled for National General Holdings is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/national-general-holdings/](https://apis.io/providers/national-general-holdings/)** — or go straight to one of the APIs or properties below.
 
-## API Surface
+### Published properties
 
-**Zero public APIs.** National General never published a public developer portal during its independent run, and post-acquisition integration work has been absorbed into Allstate's enterprise systems. Agent-facing tooling exists behind authenticated portals (`nationalagentsalliance.com`, `natgenagency.com`) but is not a public API program.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-For any developer-facing capabilities relevant to this brand, see the parent profile:
+#### Security (1)
 
-- **Allstate** — [`api-evangelist/allstate`](https://github.com/api-evangelist/allstate)
+Authentication, trust centre, and vulnerability disclosure.
 
-## Files
+- [National General Holdings Domain Security](https://apis.io/security/national-general-holdings/national-general-holdings-domain-security/)
 
-- [`apis.yml`](./apis.yml) — Network index entry. Records the acquisition, links the parent company profile, and flags the defunct-standalone status. No `apis[]` entries because no public APIs exist.
+## Where to find this API
 
-## References
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- Acquisition announcement: https://www.allstatenewsroom.com/news/allstate-completes-acquisition-of-national-general/
-- Current site: https://www.nationalgeneral.com/ ("National General, an Allstate company")
-- Wikipedia: https://en.wikipedia.org/wiki/National_General_Holdings
+- [Website](https://www.nationalgeneral.com/)
+
+## API Evangelist rating
+
+**Kin Score 3.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.3** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/national-general-holdings/](https://apis.io/providers/national-general-holdings/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for National General Holdings: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/national-general-holdings/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
